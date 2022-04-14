@@ -1,6 +1,6 @@
 const { expect } = require("chai");
 const { ethers } = require("hardhat");
-//require("@nomiclabs/hardhat-ethers");
+
 
 async function mineNBlocks(n) {
   for (let index = 0; index < n; index++) {
@@ -15,8 +15,7 @@ describe("DeltaTimeInventory ",  function ()  {
   let nFT
   let Bytes
   let bytes
-//   let NFTpaymentSplitter
-//   let nFTpaymentSplitter
+
 
 
 
